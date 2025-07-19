@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import logo2 from "./logo2.jpeg";
+import google from "./google.png";
 import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
@@ -16,6 +18,7 @@ import decrease_arrow from "./decrease_arrow.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
 import my_location_image from "./my_location_image.svg";
 import arrow_icon_white from "./arrow_icon_white.svg";
+import contact_image from "./contact_image.png";
 import heart_icon from "./heart_icon.svg";
 import star_icon from "./star_icon.svg";
 import redirect_icon from "./redirect_icon.svg";
@@ -49,6 +52,8 @@ import product_details_page_apple_earphone_image5 from "./product_details_page_a
 
 export const assets = {
   logo,
+  logo2,
+  google,
   search_icon,
   user_icon,
   cart_icon,
@@ -65,6 +70,7 @@ export const assets = {
   decrease_arrow,
   arrow_right_icon_colored,
   my_location_image,
+  contact_image,
   arrow_icon_white,
   heart_icon,
   star_icon,
@@ -130,7 +136,7 @@ export const HomeIcon = () => (
   </svg>
 );
 
-export const productsDummyData = [
+export const shopsDummyData = [
   {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
